@@ -154,13 +154,12 @@ class Program
 {
     static void Main()
     {
-        // Osoba
+     
         Person person = new Person("Alice");
         person.SayHello();
 
-        Console.WriteLine(); // Oddělovač výstupu
+        Console.WriteLine(); 
 
-        // Student
         Student student = new Student("Bob", 10);
         student.SayHello();
     }
