@@ -1,0 +1,14 @@
+C:\Users\david_\Desktop\Progr1\04_Switch\bin\Debug\net8.0\04_Switch.exe
+C:\Users\david_\Desktop\Progr1\04_Switch\bin\Debug\net8.0\04_Switch.deps.json
+C:\Users\david_\Desktop\Progr1\04_Switch\bin\Debug\net8.0\04_Switch.runtimeconfig.json
+C:\Users\david_\Desktop\Progr1\04_Switch\bin\Debug\net8.0\04_Switch.dll
+C:\Users\david_\Desktop\Progr1\04_Switch\bin\Debug\net8.0\04_Switch.pdb
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.AssemblyInfoInputs.cache
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.AssemblyInfo.cs
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.csproj.CoreCompileInputs.cache
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.dll
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\refint\04_Switch.dll
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.pdb
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\04_Switch.genruntimeconfig.cache
+C:\Users\david_\Desktop\Progr1\04_Switch\obj\Debug\net8.0\ref\04_Switch.dll

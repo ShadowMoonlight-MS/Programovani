@@ -1,0 +1,14 @@
+C:\Users\david_\Desktop\Progr1\05_while\bin\Debug\net8.0\05_while.exe
+C:\Users\david_\Desktop\Progr1\05_while\bin\Debug\net8.0\05_while.deps.json
+C:\Users\david_\Desktop\Progr1\05_while\bin\Debug\net8.0\05_while.runtimeconfig.json
+C:\Users\david_\Desktop\Progr1\05_while\bin\Debug\net8.0\05_while.dll
+C:\Users\david_\Desktop\Progr1\05_while\bin\Debug\net8.0\05_while.pdb
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.AssemblyInfoInputs.cache
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.AssemblyInfo.cs
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.csproj.CoreCompileInputs.cache
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.dll
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\refint\05_while.dll
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.pdb
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\05_while.genruntimeconfig.cache
+C:\Users\david_\Desktop\Progr1\05_while\obj\Debug\net8.0\ref\05_while.dll
