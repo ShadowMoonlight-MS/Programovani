@@ -1,0 +1,15 @@
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\bin\Debug\net8.0\03_dedicnost.exe
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\bin\Debug\net8.0\03_dedicnost.deps.json
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\bin\Debug\net8.0\03_dedicnost.runtimeconfig.json
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\bin\Debug\net8.0\03_dedicnost.dll
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\bin\Debug\net8.0\03_dedicnost.pdb
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.AssemblyInfoInputs.cache
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.AssemblyInfo.cs
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.csproj.CoreCompileInputs.cache
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.sourcelink.json
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.dll
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\refint\03_dedicnost.dll
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.pdb
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\03_dedicnost.genruntimeconfig.cache
+C:\Users\lllllll\Documents\GitHub\2\Programovani\Progr2\03_dedicnost\03_dedicnost\obj\Debug\net8.0\ref\03_dedicnost.dll
