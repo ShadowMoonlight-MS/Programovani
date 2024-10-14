@@ -36,7 +36,7 @@ class Program
 
 
 
-`virtual` a `override`
+### `virtual` a `override`
 V C# jsou klíčová slova `virtual` a `override` důležitá pro to, aby bylo možné přepsat metodu **bázové třídy** v **odvozené třídě**. Teď ti vysvětlím, proč je tam musíš mít a co přesně dělají.
 
 ### `virtual`
