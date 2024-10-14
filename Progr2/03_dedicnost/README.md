@@ -104,4 +104,67 @@ class Program
     }
 }
 ```
+# Zadání:
+Vytvoř program, který bude pracovat se základní třídou `Person` (osoba) a odvozenou třídou `Student` (student). Každá třída bude mít jednoduché vlastnosti a metody.
+
+## Specifikace:
+
+### Bázová třída: `Person`
+- Obsahuje vlastnosti `Name` (jméno) a metodu `SayHello()`, která vypíše pozdrav.
+
+### Odvozená třída: `Student`
+- Dědí z `Person`.
+- Přidává vlastnost `Grade` (ročník) a přepisuje metodu `SayHello()`, aby vypisovala jméno a ročník studenta.
+
+# Inspirace
+```csharp
+using System;
+
+class Person
+{
+    public string Name { get; set; }
+
+    public Person(string name)
+    {
+        Name = name;
+    }
+
+    public virtual void SayHello()
+    {
+        Console.WriteLine($"Hello, my name is {Name}.");
+    }
+}
+
+class Student : Person
+{
+    public int Grade { get; set; }
+
+    public Student(string name, int grade) : base(name)
+    {
+        Grade = grade;
+    }
+
+    public override void SayHello()
+    {
+        Console.WriteLine($"Hello, my name is {Name} and I am in grade {Grade}.");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Osoba
+        Person person = new Person("Alice");
+        person.SayHello();
+
+        Console.WriteLine(); // Oddělovač výstupu
+
+        // Student
+        Student student = new Student("Bob", 10);
+        student.SayHello();
+    }
+}
+
+```
 
