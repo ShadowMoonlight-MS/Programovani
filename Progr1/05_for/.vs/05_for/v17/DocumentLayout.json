@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david_\\Desktop\\Progr1\\05_for\\",
+  "WorkspaceRootPath": "C:\\Users\\lllllll\\Documents\\GitHub\\2\\Programovani\\Progr1\\05_for\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30AF084B-0245-4795-B02A-174E23F56984}|05_for.csproj|c:\\users\\david_\\desktop\\progr1\\05_for\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30AF084B-0245-4795-B02A-174E23F56984}|05_for.csproj|c:\\users\\lllllll\\documents\\github\\2\\programovani\\progr1\\05_for\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30AF084B-0245-4795-B02A-174E23F56984}|05_for.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\david_\\Desktop\\Progr1\\05_for\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lllllll\\Documents\\GitHub\\2\\Programovani\\Progr1\\05_for\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\david_\\Desktop\\Progr1\\05_for\\Program.cs",
+              "ToolTip": "C:\\Users\\lllllll\\Documents\\GitHub\\2\\Programovani\\Progr1\\05_for\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T19:01:22.027Z",
               "EditorCaption": ""
