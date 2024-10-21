@@ -87,5 +87,3 @@ class Program
     }
 }
 ```
-
-Tento program ukazuje základní použití implicitního a explicitního přetypování, stejně jako operátory `as` a `is` pro práci s referenčními typy.

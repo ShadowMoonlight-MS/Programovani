@@ -52,6 +52,10 @@ V tomto případě je hodnota vybalena z objektu typu object zpět do proměnné
 3. Provede unboxing této hodnoty zpět na int.
 4. Ověří, zda unboxing proběhl správně.
 
+## Kdy používat Boxing a Unboxing
+
+V moderním C# se boxing a unboxing používají méně často díky existenci generik (`List<T>`, `Dictionary<TKey, TValue>`, atd.), které umožňují pracovat s typy bezpečněji a efektivněji bez nutnosti převodu na object. Nicméně, koncept je stále důležitý, zvláště při práci s rozhraními nebo starším kódem, kde může být očekáván typ object.
+
 ### Inspirace:
 ``` csharp
 using System;
@@ -83,6 +87,3 @@ class Program
     }
 }
 ```
-## Kdy používat Boxing a Unboxing
-
-V moderním C# se boxing a unboxing používají méně často díky existenci generik (`List<T>`, `Dictionary<TKey, TValue>`, atd.), které umožňují pracovat s typy bezpečněji a efektivněji bez nutnosti převodu na object. Nicméně, koncept je stále důležitý, zvláště při práci s rozhraními nebo starším kódem, kde může být očekáván typ object.
