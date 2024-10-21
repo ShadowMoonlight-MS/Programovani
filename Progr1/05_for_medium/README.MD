@@ -9,10 +9,14 @@ Zadejte dvě čísla (nižší a vyšší hranice intervalu).
 Součet všech sudých čísel v intervalu.
 
 ### Příklad
+```csharp
 Zadejte nižší hranici: 4
 Zadejte vyšší hranici: 10
-Výstup: 28 (4 + 6 + 8 + 10)
-
+```
+Výstup: 
+```csharp
+28 (4 + 6 + 8 + 10)
+```
 ### nápověda
 if (i % 2 == 0) // Kontrola, zda je číslo sudé
 
