@@ -1,19 +1,6 @@
 # Přetypování a konverze datových typů v C#
 
-V C# se konverze datových typů a přetypování (casting) používají k převodu hodnot mezi různými typy. Existují dva hlavní typy přetypování: implicitní a explicitní. Pojďme se na ně podívat podrobněji.
-
-## Implicitní přetypování
-
-Implicitní přetypování je automatický proces, který kompilátor provádí, když se hodnota jednoho datového typu může bezpečně převést na jiný typ bez ztráty dat. Typicky se to týká konverzí z menších na větší datové typy (např. `int` na `float`), protože větší typ má dostatek prostoru k uchování hodnoty bez ztráty přesnosti.
-
-### Příklad implicitního přetypování:
-``` csharp 
-int a = 123;
-double b = a; // Implicitní přetypování z int na double
-Console.WriteLine(b); // Výstup: 123.0
-```
-
-V tomto případě může být hodnota typu `int` (celé číslo) automaticky převedena na typ `double` (desetinné číslo) bez nutnosti explicitního přetypování.
+V C# se konverze datových typů a přetypování (casting) používají k převodu hodnot mezi různými typy. 
 
 ## Explicitní přetypování (casting)
 
