@@ -22,8 +22,6 @@ Vytvoříme pole čísel, které naplníme hodnotami a následně je vypíšeme 
 **Zadání:** Vytvoř pole celých čísel s hodnotami `{10, 20, 30, 40, 50}` a vypiš každé číslo v poli na nový řádek pomocí `foreach` cyklu.
 
 ``` csharp
-int[] numbers = { 10, 20, 30, 40, 50 };
-
 foreach (int number in numbers)
 {
     Console.WriteLine(number);
