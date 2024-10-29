@@ -96,6 +96,10 @@ class Program
         }
     }
 }
+//Výsledky operací:
+//9
+//3
+//18
 ```
 # Příklad 3: Delegát pro zpracování textu (TextProcessing Delegate)
 
