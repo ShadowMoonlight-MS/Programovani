@@ -11,8 +11,7 @@ Zde jsou dva příklady s ukázkami kódu a vysvětlením řešení.
 Máme seznam čísel a chceme získat všechna sudá čísla větší než 10 a seřadit je sestupně.
 
 ### Kód:
-```
- csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,7 +55,7 @@ aaa
 Máme seznam zaměstnanců s jejich jmény a věkem a chceme najít jména zaměstnanců starších než 30 let.
 
 ### Kód:
-aaa csharp
+``` csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,7 +89,7 @@ class Program
         }
     }
 }
-aaa
+```
 
 ### Vysvětlení:
 - `.Where(e => e.Age > 30)` filtruje zaměstnance starší než 30 let.
@@ -98,11 +97,11 @@ aaa
 - Výsledkem je seznam jmen zaměstnanců, kteří splňují podmínku.
 
 ### Výstup:
-aaa perl
+```
 Zaměstnanci starší než 30:
 Bob
 Charlie
-aaa
+```
 
 ---
 
@@ -110,7 +109,7 @@ aaa
 Máme seznam zaměstnanců a chceme najít zaměstnance, jejichž jméno má více než 4 znaky, a seřadit je podle délky jména vzestupně.
 
 ### Kód:
-aaa csharp
+``` csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -146,7 +145,7 @@ class Program
         }
     }
 }
-aaa
+```
 
 ### Vysvětlení:
 - `.Where(e => e.Name.Length > 4)` vybírá zaměstnance, jejichž jméno má více než 4 znaky.
@@ -154,12 +153,12 @@ aaa
 - `.Select(e => e.Name)` vybere pouze jména, nikoliv celé objekty zaměstnanců.
 
 ### Výstup:
-aaa perl
+```
 Zaměstnanci s jménem delším než 4 znaky, seřazení podle délky jména:
 Alice
 David
 Charlie
-aaa
+```
 
 ---
 
@@ -167,7 +166,7 @@ aaa
 Máme seznam zaměstnanců a chceme zjistit průměrný věk zaměstnanců starších než 25 let.
 
 ### Kód:
-aaa csharp
+``` csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -198,13 +197,13 @@ class Program
         Console.WriteLine("Průměrný věk zaměstnanců starších než 25 let: " + averageAge);
     }
 }
-aaa
+```
 
 ### Vysvětlení:
 - `.Where(e => e.Age > 25)` vybírá zaměstnance starší než 25 let.
 - `.Average(e => e.Age)` spočítá průměrný věk ze zvolených zaměstnanců.
 
 ### Výstup:
-aaa perl
+```
 Průměrný věk zaměstnanců starších než 25 let: 33.75
-aaa
+```
