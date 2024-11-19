@@ -11,7 +11,8 @@ Zde jsou dva příklady s ukázkami kódu a vysvětlením řešení.
 Máme seznam čísel a chceme získat všechna sudá čísla větší než 10 a seřadit je sestupně.
 
 ### Kód:
-aaa csharp
+‘‘‘
+ csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,7 @@ class Program
         }
     }
 }
-aaa
+‘‘‘
 
 ### Vysvětlení:
 - `.Where(n => n > 10 && n % 2 == 0)` filtruje čísla v seznamu `numbers`, která jsou sudá a větší než 10.
