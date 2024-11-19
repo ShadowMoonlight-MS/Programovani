@@ -104,9 +104,44 @@ Charlie
 ```
 
 ---
-
+# Zadání:
 ## Příklad 1: Výběr zaměstnanců podle délky jména
 Máme seznam zaměstnanců a chceme najít zaměstnance, jejichž jméno má více než 4 znaky, a seřadit je podle délky jména vzestupně.
+### Vysvětlení:
+- `.Where(e => e.Name.Length > 4)` vybírá zaměstnance, jejichž jméno má více než 4 znaky.
+- `.OrderBy(e => e.Name.Length)` řadí zaměstnance podle délky jména vzestupně.
+- `.Select(e => e.Name)` vybere pouze jména, nikoliv celé objekty zaměstnanců.
+
+### Výstup:
+```
+Zaměstnanci s jménem delším než 4 znaky, seřazení podle délky jména:
+Alice
+David
+Charlie
+```
+
+## Příklad 2: Získání průměrného věku
+Máme seznam zaměstnanců a chceme zjistit průměrný věk zaměstnanců starších než 25 let.
+
+### Vysvětlení:
+- `.Where(e => e.Age > 25)` vybírá zaměstnance starší než 25 let.
+- `.Average(e => e.Age)` spočítá průměrný věk ze zvolených zaměstnanců.
+
+### Výstup:
+```
+Průměrný věk zaměstnanců starších než 25 let: 33.75
+```
+
+
+
+
+
+
+
+
+
+
+
 
 ### Kód:
 ``` csharp
@@ -147,23 +182,11 @@ class Program
 }
 ```
 
-### Vysvětlení:
-- `.Where(e => e.Name.Length > 4)` vybírá zaměstnance, jejichž jméno má více než 4 znaky.
-- `.OrderBy(e => e.Name.Length)` řadí zaměstnance podle délky jména vzestupně.
-- `.Select(e => e.Name)` vybere pouze jména, nikoliv celé objekty zaměstnanců.
 
-### Výstup:
-```
-Zaměstnanci s jménem delším než 4 znaky, seřazení podle délky jména:
-Alice
-David
-Charlie
-```
 
 ---
 
-## Příklad 2: Získání průměrného věku
-Máme seznam zaměstnanců a chceme zjistit průměrný věk zaměstnanců starších než 25 let.
+
 
 ### Kód:
 ``` csharp
@@ -199,11 +222,4 @@ class Program
 }
 ```
 
-### Vysvětlení:
-- `.Where(e => e.Age > 25)` vybírá zaměstnance starší než 25 let.
-- `.Average(e => e.Age)` spočítá průměrný věk ze zvolených zaměstnanců.
 
-### Výstup:
-```
-Průměrný věk zaměstnanců starších než 25 let: 33.75
-```
