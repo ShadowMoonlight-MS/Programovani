@@ -41,13 +41,13 @@ class Program
 - Výsledkem je výpis všech sudých čísel větších než 10 v sestupném pořadí.
 
 ### Výstup:
-aaa perl
+```
 Sudá čísla větší než 10, seřazená sestupně:
 30
 18
 16
 12
-aaa
+```
 
 ---
 
