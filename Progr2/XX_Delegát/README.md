@@ -145,3 +145,108 @@ class Program
 - **Action:** Použijte, když nepotřebujete návratovou hodnotu (metody vracející `void`).
 - **Func:** Použijte, když chcete návratovou hodnotu (např. matematické operace).
 - **Predicate:** Použijte, když potřebujete podmínky vracející `bool`.
+
+
+
+
+
+
+
+# Úlohy: Práce s delegáty v C#
+
+V této úloze si procvičíte práci s delegáty v C#. Budete vytvářet vlastní delegáty, používat předdefinované delegáty (`Action`, `Func`, `Predicate`) a implementovat jednoduché metody, které s nimi spolupracují. Na konci budete schopni používat delegáty efektivně v praxi.
+
+---
+
+## **Část 1: Vlastní delegát**
+
+**Úkol:**  
+Definujte vlastní delegát `MathOperation`, který přijímá dva `int` parametry a vrací `int`. Implementujte dvě metody:
+- `Add` pro sčítání dvou čísel.
+- `Subtract` pro odčítání dvou čísel.
+
+Použijte delegát k volání obou metod.
+
+**Příklad výstupu:**
+``` cs
+Sčítání: 8
+Odčítání: 2
+```
+
+**Nápověda:**
+- Delegát deklarujte pomocí `delegate int MathOperation(int x, int y);`.
+- Delegát přiřaďte k metodě pomocí `MathOperation operation = Add;`.
+
+---
+
+## **Část 2: Použití `Action`**
+
+**Úkol:**  
+Použijte delegát `Action<string>` k implementaci metody `DisplayMessage`, která přijme jeden parametr typu `string` a vypíše jej na konzoli.
+
+**Příklad výstupu:**
+``` cs
+Zpráva: Ahoj, světe!
+```
+
+**Nápověda:**
+- Definujte proměnnou `Action<string> displayMessage`.
+- Přidělte jí metodu `DisplayMessage` a zavolejte ji s libovolným textem.
+
+---
+
+## **Část 3: Použití `Func`**
+
+**Úkol:**  
+Použijte delegát `Func<double, double, double>` k implementaci metody `CalculateRectangleArea`, která vypočítá plochu obdélníku. Metoda by měla přijmout šířku a výšku obdélníku a vrátit jeho plochu.
+
+**Příklad výstupu:**
+``` cs
+Plocha obdélníku: 15
+```
+
+**Nápověda:**
+- Použijte `Func<double, double, double>` k vytvoření delegáta.
+- Metoda musí vrátit hodnotu typu `double` (plocha).
+
+---
+
+## **Část 4: Použití `Predicate`**
+
+**Úkol:**  
+Použijte delegát `Predicate<int>` k filtrování seznamu čísel. Implementujte metodu `IsEven`, která vrací `true`, pokud je číslo sudé. Filtrujte seznam čísel, aby zůstal jen se sudými čísly.
+
+**Příklad výstupu:**
+``` cs
+Sudá čísla: 2, 4, 6
+```
+
+**Nápověda:**
+- Použijte `List<int>` a metodu `List.FindAll`, která přijímá `Predicate<int>`.
+- Definujte `Predicate<int> isEven`.
+
+---
+
+## **Bonusová část: Zkombinujte delegáty**
+
+**Úkol:**  
+Napište program, který:
+1. Použije vlastní delegát pro základní matematickou operaci.
+2. Vypíše výsledek pomocí `Action<string>`.
+3. Zkontroluje, zda výsledek je sudé číslo pomocí `Predicate<int>`.
+
+**Příklad výstupu:**
+``` cs
+Výsledek operace: 8
+Je sudý: Ano
+```
+
+**Nápověda:**
+- Kombinujte vytvořené části a předejte delegátům výsledky jiných delegátů.
+
+---
+
+### **Kritéria hodnocení:**
+1. Program je funkční a správně implementuje delegáty.
+2. Výstupy odpovídají zadaným příkladům.
+3. Použití delegátů je jasné a správně odpovídá zadání.
