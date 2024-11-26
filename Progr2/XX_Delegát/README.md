@@ -1,5 +1,4 @@
-# Save the content with custom code block delimiter "aaa" to a Markdown (.md) file
-custom_content = """
+
 # Delegáty v C#
 
 Delegát je v C# typ, který odkazuje na metodu. Delegáty umožňují předávat metody jako parametry jiným metodám. Jsou základním kamenem pro pochopení pokročilých konceptů jako lambdy a LINQ. Pojďme to probrat a ukázat na čtyřech příkladech od jednodušších po složitější.
@@ -146,4 +145,3 @@ class Program
 - **Action:** Použijte, když nepotřebujete návratovou hodnotu (metody vracející `void`).
 - **Func:** Použijte, když chcete návratovou hodnotu (např. matematické operace).
 - **Predicate:** Použijte, když potřebujete podmínky vracející `bool`.
-"""
