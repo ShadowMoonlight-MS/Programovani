@@ -1,4 +1,4 @@
-### Dictionary in C#
+### Dictionary C#
 
 `Dictionary<TKey, TValue>` je kolekce, která mapuje unikátní **klíče** (`TKey`) na odpovídající **hodnoty** (`TValue`). Každý klíč je v rámci `Dictionary` unikátní, a hodnoty k němu přiřazené mohou být libovolného typu.
 
