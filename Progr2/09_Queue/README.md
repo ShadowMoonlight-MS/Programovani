@@ -60,13 +60,6 @@ class Program
     }
 }
 ```
-# Co tento kód dělá?
-
-1. **Vytvoření fronty**: Na začátku vytvoříme frontu typu `string` pomocí `Queue<string>`.
-2. **Přidání prvků**: Používáme metodu `Enqueue()`, abychom přidali tři osoby (Alice, Bob, Charlie) do fronty.
-3. **Odebrání prvků**: Pomocí `Dequeue()` odebereme první prvek (Alice), který je také první v pořadí. Poté vypíšeme, kdo odešel z fronty.
-4. **Prohlédnutí prvního prvku**: `Peek()` nám ukáže, kdo je v tuto chvíli na začátku fronty (po odstranění Alice to bude Bob).
-5. **Vyprázdnění fronty**: Nakonec všechny prvky odstraníme pomocí `Clear()`.
 ## Výstup:
 ```cs
 Počet prvků ve frontě: 3
