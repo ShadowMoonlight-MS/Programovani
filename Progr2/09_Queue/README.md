@@ -137,7 +137,7 @@ vp umít nádobí
 np zavolat kamarádovy
 np koukat na televizi
 vp uklidit svůj pokoj
-
+konec //pokud uživatel napíše 'konec', přejde se na výstup
 //výstup
 1.Dojít nakoupit
 2.umít nádobí
