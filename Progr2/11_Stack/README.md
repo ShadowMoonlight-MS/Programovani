@@ -67,25 +67,7 @@ Napište program, který:
 - Pro každý znak v řetězci použijte `Push()`.
 - Pak použijte `Pop()` k postupnému vyjmutí znaků a vytvoření obráceného textu.
 
-### **Input:**
 
-``` csharp
-Console.WriteLine("Zadejte text:");
-string vstup = Console.ReadLine();
-
-Stack<char> zasobnik = new Stack<char>();
-
-foreach (char znak in vstup)
-{
-    zasobnik.Push(znak);
-}
-
-Console.WriteLine("Obrácený text:");
-while (zasobnik.Count > 0)
-{
-    Console.Write(zasobnik.Pop());
-}
-```
 
 ### **Output:**
 
@@ -114,27 +96,20 @@ Podporované závorky: `()`, `{}`, `[]`
 - Když najdete zavírací závorku, zkontrolujte, jestli odpovídá té na vrcholu zásobníku (`Peek()` + `Pop()`).
 - Pokud zásobník na konci není prázdný, znamená to chybu v párování.
 
-### **Input:**
+### **Output:**
 
 ``` csharp
 Zadejte výraz:
 ({[]})
-```
-### **Output:**
-```cs
 
 Správně uzavřené závorky.
 ```
 
-### **Input:**
+### **Output:**
 
 ``` csharp
 
 Zadejte výraz:
 (]
-
-```
-### **Output:**
-```cs
 Špatně uzavřené závorky.
 ```
