@@ -13,10 +13,6 @@ Když program na něco čeká (třeba na data z disku nebo z webu), CPU reálně
 
 # Základ
 
-### Task a Task<TResult>
-Task představuje asynchronní operaci, která se může dokončit v budoucnu.
-Můžete si to představit jako „slib“, že výpočet jednou skončí – a my s výsledkem můžeme pracovat, až je hotový.
-
 ### async a await
 - **async**: Označí metodu, že uvnitř může používat klíčové slovo await.
 - **await**: Řekne programu „Počkej, až se tato asynchronní operace dokončí, a pak pokračuj dál.“
