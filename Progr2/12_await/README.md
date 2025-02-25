@@ -11,7 +11,7 @@
 Když program na něco čeká (třeba na data z disku nebo z webu), CPU reálně nic užitečného nedělá, jen sedí a čeká na odpověď. Asynchronní kód říká: „Dej mi vědět, až to bude, do té doby si budu dělat něco jiného (nebo nic, ale nezablokuji hlavní vlákno UI).“
 
 
-# Základní stavební kameny
+# Základ
 
 ### Task a Task<TResult>
 Task představuje asynchronní operaci, která se může dokončit v budoucnu.
