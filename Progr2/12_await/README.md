@@ -55,7 +55,7 @@ class Program
 - Když dojde na `await Task.Delay(3000)`, tak se metoda „přeruší“ a vlákno se může věnovat něčemu jinému (např. UI).
 - Po 3 sekundách se pokračuje dál.
 
-```
+
 # 4. Asynchronní stahování dat (ukázka s HttpClient)
 
 Trochu realističtější příklad je stahování dat z webu, což je v praxi typická asynchronní operace.
